@@ -1,6 +1,6 @@
 name: ascii_qr
 description: Create ASCII QR codes in Dart.  Like console_qr, but with no Flutter dependency.
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/ManyMath/ascii_qr
 
 environment:
