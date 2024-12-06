@@ -1,6 +1,8 @@
 import 'package:ascii_qr/ascii_qr.dart';
+import 'package:qr/qr.dart';
 
 void main() {
-  var awesome = Awesome();
-  print('awesome: ${awesome.isAwesome}');
+  final qrCode = AsciiQrGenerator.generate('https://cypherstack.com/',
+      errorCorrectLevel: QrErrorCorrectLevel.H);
+  print(qrCode);
 }
